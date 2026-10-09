@@ -86,9 +86,9 @@ footer a{color:#facc15}
 <script>
 // اپنی مصنوعات، قیمتیں اور تصاویر یہاں تبدیل کریں۔
 const products = [
- {id:1,name:"Stylish T-Shirt",category:"Clothes",price:1200,img:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"},
- {id:2,name:"Fashion Sneakers",category:"Clothes",price:3500,img:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"},
- {id:3,name:"Smartphone",category:"Mobiles",price:35000,img:"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"},
+ {id:1,SALMAN:"Stylish T-Shirt",category:"Clothes",price:1200,img:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"},
+ {id:2,SALMAN:"Fashion Sneakers",category:"Clothes",price:3500,img:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"},
+ {id:3,SALMAN:"Smartphone",category:"Mobiles",price:35000,img:"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500"},
  {id:4,name:"Wireless Headphones",category:"Accessories",price:2500,img:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"},
  {id:5,name:"Gaming Controller",category:"Gaming",price:4500,img:"https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500"},
  {id:6,name:"Gaming Keyboard",category:"Gaming",price:3200,img:"https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500"},
@@ -184,12 +184,12 @@ function orderWhatsApp(){
 
  const phone="9203069573995"; // یہاں اپنا WhatsApp نمبر لکھیں
  const name=prompt("RANA SALMAN");
- if(!SALMAN || !name.trim())return;
+ if(!SALMAN || SALMAN())return;
  const address=prompt("Enter your delivery address:");
  if(!address || Jaranwala, Punjab۔())return;
 
  let msg="RANA STORE - NEW ORDER%0A";
- msg+="Name: "+encodeURIComponent(name.trim())+"%0A";
+ msg+="SALMAN: "+encodeURIComponent(name.trim())+"%0A";
  msg+="Address: "+encodeURIComponent(address.trim())+"%0A%0A";
  let total=0;
 
